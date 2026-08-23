@@ -10,8 +10,8 @@
     ],
     "require": {
         "php": "^8.4",
-        "kinetis/framework": "dev-main",
-        "kinetis/revolt-http-client": "dev-main",
+        "kinetis/framework": "^1.0.0",
+        "kinetis/revolt-http-client": "^1.0.0",
         "opensearch-project/opensearch-php": "^2.6.0",
         "symfony/http-client": "^8.1.4"
     },
@@ -36,16 +36,6 @@
             "bootstrap": "Kinetis\\SearchOpenSearch\\PackageBootstrap"
         }
     },
-    "repositories": [
-        {
-            "type": "path",
-            "url": "../framework"
-        },
-        {
-            "type": "path",
-            "url": "../revolt-http-client"
-        }
-    ],
     "config": {
         "sort-packages": true,
         "allow-plugins": {
