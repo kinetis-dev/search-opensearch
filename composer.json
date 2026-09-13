@@ -10,14 +10,14 @@
     ],
     "require": {
         "php": "^8.4",
-        "kinetis/framework": "dev-main",
-        "kinetis/search": "dev-main",
+        "kinetis/framework": "^1.8.1",
+        "kinetis/search": "^1.0.1",
         "opensearch-project/opensearch-php": "^2.6.0",
         "psr/http-client": "^1.0.3"
     },
     "require-dev": {
         "infection/infection": "^0.35.0",
-        "kinetis/revolt-http-client": "dev-main",
+        "kinetis/revolt-http-client": "^1.4.1",
         "phpstan/phpstan": "^2.2.8",
         "phpunit/phpunit": "^13.3.3",
         "vimeo/psalm": "^6.17"
@@ -37,20 +37,6 @@
             "bootstrap": "Kinetis\\SearchOpenSearch\\PackageBootstrap"
         }
     },
-    "repositories": [
-        {
-            "type": "path",
-            "url": "../revolt-http-client"
-        },
-        {
-            "type": "path",
-            "url": "../framework"
-        },
-        {
-            "type": "path",
-            "url": "../search"
-        }
-    ],
     "config": {
         "sort-packages": true,
         "allow-plugins": {
